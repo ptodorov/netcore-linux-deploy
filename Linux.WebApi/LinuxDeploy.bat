@@ -6,7 +6,7 @@ set CertificateFileLocation="/mnt/c/Users/Panayot/Documents/linux_amazon.pem"
 for %%* in (.) do set CurrentDirName=%%~nx*
 set OutputFolder="%tmp%\%CurrentDirName%"
 set OutputZipFile="%tmp%\%CurrentDirName%.zip"
-set RemoteHost="ubuntu@ec2-54-229-219-60.eu-west-1.compute.amazonaws.com"
+set RemoteHost="ubuntu@54.154.115.137"
 set RemoteLocation="/home/ubuntu"
 
 dotnet restore
